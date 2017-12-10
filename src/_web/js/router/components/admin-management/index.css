@@ -1,0 +1,63 @@
+.app {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .app .header {
+    display: flex;
+    background-color: rgb(0, 188, 212);;
+    height: 70px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .app .header img{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+  }
+  .app .header .title{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    align-items: center;
+  }
+  .app .container{
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+  .app .container .menu{
+    background-color: #ffffff;
+    height: 100%;
+    width: 20%;
+  }
+  .app .container .menu .menu-item{
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    align-items: center;
+    height: 45px;
+    /* background-color: rebeccapurple; */
+   
+  }
+  .app .container .menu .menu-item :hover {color: rebeccapurple;}
+  .app .container .menu .menu-item :active {color: red;}
+  .app .container .menu .menu-item :visited { color: gray;}
+  .app .container .menu .menu-item img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .app .container .menu .menu-item h5{
+    margin: 0;
+    color: gray;
+  }
+  .app .container .statistics-container{
+    background-color: #ffffff;
+    margin: 15px;
+    width: 80%;
+  }

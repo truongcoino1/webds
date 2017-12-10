@@ -1,0 +1,22 @@
+.login-form{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-background{
+    display: flex;
+    flex-direction: column;
+
+}
+.input-login {
+    border: 0;
+    color: white;
+    flex-grow: 2;
+    font-family: Avenir-Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
+    outline: none;
+    width: 100px;
+  }
